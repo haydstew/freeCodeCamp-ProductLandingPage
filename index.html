@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://cdn-icons-png.flaticon.com/512/3849/3849942.png"
+          alt="AirBuds icon"
+        />
+        <p class="logo-text">AirBuds</p>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li>
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </li>
+          <li>
+            <a href="#models" class="nav-link">Models</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="flex-column">
+          <h1>Discover True Wireless Freedom</h1>
+          <p class="hero-text">
+            No more tangled cords or limitations. With AirBuds, you're free to
+            move, groove, and conquer your day without missing a beat. Whether
+            you're hitting the gym, commuting, or simply unwinding at home,
+            AirBuds are your perfect companion.
+          </p>
+          <a href="#models"
+            ><button class="hero-button">Explore Our Models</button></a
+          >
+        </div>
+        <div class="flex-column">
+          <img
+            class="hero-img"
+            src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg"
+            alt="White earphones on black surface"
+          />
+        </div>
+      </section>
+      <section id="features">
+        <div class="flex-feature">
+          <i class="fa fa-solid fa-volume-high"></i>
+          <h2 class="features-heading">Immersive Sound</h2>
+          <p class="features-description">
+            Escape into your favorite playlists, podcasts, and calls with
+            exceptional sound quality. Our advanced audio technology delivers
+            crisp highs, rich mids, and deep bass, ensuring an immersive
+            listening experience every time.
+          </p>
+        </div>
+        <div class="flex-feature">
+          <i class="fa fa-solid fa-heart"></i>
+          <h2 class="features-heading">Comfort and Style</h2>
+          <p class="features-description">
+            Say goodbye to discomfort and hello to style. AirBuds are
+            ergonomically designed to fit snugly in your ears, while the sleek
+            and modern aesthetic adds a touch of sophistication to your look.
+          </p>
+        </div>
+        <div class="flex-feature">
+          <div class="icon">
+            <i class="fa fa-brands fa-bluetooth"></i>
+          </div>
+          <div class="desc">
+            <h2 class="features-heading">Seamless Connectivity</h2>
+            <p class="features-description">
+              Connect to your devices seamlessly and enjoy hassle-free music
+              playback, call management, and voice assistant support. With
+              intuitive touch controls, navigating your audio experience has
+              never been easier.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="reviews">
+        <div class="flex-column">
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/fM6aufyKnFc?si=2fQc7V1HHgIwObtz"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="flex-column">
+          <h2 class="reviews-heading">Experience AirBuds Today</h2>
+          <p class="reviews-description">
+            Join the millions who have embraced true wireless freedom with
+            AirBuds. Elevate your audio experience and discover a new level of
+            convenience, comfort, and style. Sign up for our mailing list to
+            stay up to date on the latest news and product offerings.
+          </p>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Email:</label>
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="e.g. johndoe@email.com"
+              required
+            />
+            <input id="submit" type="submit" value="Sign up" class="button" />
+          </form>
+        </div>
+      </section>
+      <section id="models">
+        <div class="model">
+          <div class="model-heading">AirBuds Lite</div>
+          <h2 class="price">$49.99</h2>
+          <ul class="model-features">
+            <li>Compact and Lightweight</li>
+            <li>Budget-Friendly</li>
+            <li>All-Day Comfort</li>
+            <li>Voice Assistant Support</li>
+            <li>Stable Connectivity</li>
+          </ul>
+          <button class="order-button">Order Now</button>
+        </div>
+        <div class="model">
+          <div class="model-heading">AirBuds Flex</div>
+          <h2 class="price">$74.99</h2>
+          <ul class="model-features">
+            <li>Flexible Neckband Design</li>
+            <li>Sweat and Water Resistance</li>
+            <li>Long Battery Life</li>
+            <li>Quick Charge</li>
+            <li>Enhanced Bass</li>
+          </ul>
+          <button class="order-button">Order Now</button>
+        </div>
+        <div class="model">
+          <div class="model-heading">AirBuds Pro</div>
+          <h2 class="price">$99.99</h2>
+          <ul class="model-features">
+            <li>Active Noise Cancellation</li>
+            <li>Transparency Mode</li>
+            <li>Customizable Ear Tips</li>
+            <li>Touch Controls</li>
+            <li>Enhanced Sound Quality</li>
+          </ul>
+          <button class="order-button">Order Now</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="footer-p">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        AirBuds
+      </p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
